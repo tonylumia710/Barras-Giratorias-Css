@@ -48,7 +48,7 @@ section{
 }
 
 .layer.layer1{
-    background: #222 radial-gradient(#6dff73 9px, #000 9px, #000 13px, transparent 13px);
+    background: #222 radial-gradient(yellow 9px, #000 9px, #000 13px, transparent 13px);
     background-size: 35px 35px;
     transform: translate(-50%,-50%) rotate(0deg);
     z-index: 11;
@@ -92,5 +92,13 @@ section{
     background-size: 35px 35px;
     transform: translate(-50%,-62%) rotate(-45deg);
     z-index: 10;    
+    animation: animate 2s linear infinite;
+}
+
+.layer.layer7{
+    background: #222 radial-gradient(#6dff73 9px, #000 9px, #000 13px, transparent 13px);
+    background-size: 35px 35px;
+    transform: translate(-50%,-50%) rotate(45deg);
+    z-index: 11;
     animation: animate 2s linear infinite;
 }
